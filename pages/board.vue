@@ -158,7 +158,7 @@ export default {
   },
   created: function() {
     if (firebase.auth().currentUser == null) {
-      this.login();
+      // this.login();
     }
     console.log(firebase.auth().currentUser);
   }
